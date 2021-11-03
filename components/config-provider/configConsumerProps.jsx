@@ -1,0 +1,1 @@
+import defaultRenderEmpty from './renderEmpty'
