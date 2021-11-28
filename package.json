@@ -1,15 +1,52 @@
 {
+  "name": "bui-vue",
+  "version": "0.2.1",
+  "private": false,
+  "main": "dist/bui-vue.common.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "bui-vue:build": "vue-cli-service build --target lib --name bui-vue components/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
   },
   "devDependencies": {
-    "ant-design-vue": "^1.7.8",
-    "core-js": "2",
-    "less": "2.7.3",
+    "@ant-design/icons": "^2.1.1",
+    "@ant-design/icons-vue": "^2.0.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "add-dom-event-listener": "^1.0.2",
+    "async-validator": "^3.0.3",
+    "bui-vue": "^0.1.8",
+    "classnames": "^2.2.5",
+    "component-classes": "^1.2.6",
+    "dom-align": "^1.10.4",
+    "dom-closest": "^0.2.0",
+    "dom-scroll-into-view": "^2.0.0",
+    "enquire.js": "^2.1.6",
+    "is-mobile": "^2.2.1",
+    "less": "3.9.0",
     "less-loader": "4.1.0",
-    "lodash": "^4.17.21",
-    "raf": "^3.4.1",
-    "vuepress": "^1.8.2"
-  }
+    "moment": "^2.29.1",
+    "mutationobserver-shim": "^0.3.2",
+    "omit.js": "^1.0.0",
+    "raf": "^3.4.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "shallowequal": "^1.0.2",
+    "vue-ref": "^2.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "warning": "^4.0.0",
+    "autoprefixer": "^9.6.0",
+    "postcss": "^7.0.6",
+    "postcss-loader": "^3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "description": "## pls pre-set repositry before install!!",
+  "author": "benjaminbai",
+  "license": "ISC"
 }
